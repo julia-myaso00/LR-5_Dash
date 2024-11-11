@@ -52,7 +52,6 @@ app.layout = html.Div([
             id='group-dropdown',
             options=[{'label': group, 'value': group} for group in data['Группа'].unique()],
             value=data['Группа'].unique()[0],
-            clearable=False,
         ),
     ], style={'width': '48%', 'display': 'inline-block'}),
 
